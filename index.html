@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Navegación - Laboratorio 3</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #222;
+        font-family: Arial, sans-serif;
+        margin: 0;
+      }
+
+      h1 {
+        color: #fff;
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+
+      .navigation {
+        display: flex;
+        gap: 2rem;
+      }
+
+      .nav-button {
+        padding: 1rem 2rem;
+        background: #007acc;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: background 0.3s ease;
+        font-size: 1.1rem;
+        border: none;
+        cursor: pointer;
+      }
+
+      .nav-button:hover {
+        background: #005a99;
+        transform: translateY(-2px);
+      }
+
+      .description {
+        color: #ccc;
+        text-align: center;
+        margin-top: 2rem;
+        max-width: 500px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Laboratorio 3 - Rive Animations</h1>
+
+    <div class="navigation">
+      <a href="a.html" class="nav-button">Página A</a>
+      <a href="b.html" class="nav-button">Página B</a>
+    </div>
+
+    <div class="description">
+      <p>
+        Selecciona una página para ver las animaciones de Rive con texto
+        dinámico.
+      </p>
+    </div>
+  </body>
+</html>
